@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> QUIZ </title>
+<link href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+
+<h1> <center>GO AHEAD AND TEST YOUR KNOWLEDGE! </center> </h1>
+
+<form id = "quiz" name = "quiz">
+
+<p> Who invented HTML? </p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p> C Language was developed at? </p>
+<input type = "radio" id = "mc" name ="question2" value= "AT & T's Bell Laboratories of USA in 1972">AT & T's Bell Laboratories of USA in 1972<br>
+<input type = "radio" id = "mc" name ="question2" value = "AT & T's Bell Laboratories of USA in 1970">AT & T's Bell Laboratories of USA in 1970<br>
+
+
+<p>C programs are converted into machine language with the help of? </p>
+<input type = "radio" id = "mc" name ="question3" value= "An Editor">An Editor<br>
+<input type = "radio" id = "mc" name ="question3" value = "A Compiler">A Compiler<br>
+
+<input id = "button" type = "button" value = "Try your Luck!" onclick = "check();">
+</form>
+<div id ="after_submit">
+<p id ="message"></p>
+<p id ="number_correct"></p>
+<img id = "picture">
+            
+</body>
+</html>
+ 

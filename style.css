@@ -1,0 +1,42 @@
+body{
+
+	font-family: 'Lato' , sans-serif;
+    background-color: coral;
+    text-align: center;
+}
+
+#quiz {
+	margin-left: 10px;
+	background: #d2def2;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+    float: center;
+    text-align: center;
+
+}
+
+input {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#textbox {
+	height: 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	padding-rights: : 5px;
+	text-align: center;
+} 
+
+#button {
+
+  background-color: lightblue;
+ text-align: center;
+
+}
+#after_submit{
+	visibility: hidden;
+
+}
