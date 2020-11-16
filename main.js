@@ -17,8 +17,7 @@ function check() {
         correct++;
     }
     var messages = ["Great job!",    "That's just okay",  "You really need to do better"];
-    var pictures = ["img/sucess.gif", "img/meh.gif", "img/lose.gif"];
-
+    var pictures = ["https://i.gifer.com/1Egv.gif", "https://viralviralvideos.com/wp-content/uploads/GIF/2014/08/GIF-Meh-GIF.gif", "https://media.tenor.com/images/566837eba034cef161f09e090d191bb1/tenor.gif"];
     var range;
         
         if (correct < 1) {
